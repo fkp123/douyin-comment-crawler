@@ -1,0 +1,44 @@
+# ========== 敏感信息（切勿上传）==========
+# 你的真实配置，含 Cookie 等登录凭证
+config.py
+
+# ========== 数据文件（含真实用户数据）==========
+*.db
+*.db-journal
+*.csv
+*.sqlite
+*.sqlite3
+
+# ========== Python 编译缓存 ==========
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+
+# ========== 临时/调试文件 ==========
+debug_api.py
+check.py
+run_analysis.py
+download_git.py
+analysis_result.txt
+tools/
+*.log
+
+# ========== 安装包/缓存 ==========
+*.whl
+gmssl-3.2.2.dist-info/
+
+# ========== IDE/系统文件 ==========
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ========== 虚拟环境 ==========
+venv/
+env/
+.venv/
